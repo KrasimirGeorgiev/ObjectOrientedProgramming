@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Bank">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Accounts.Account">
+    <Position X="7" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAAAAAAAAAgAAAAAAAEAAAgAAAAAAAIAAAA=</HashCode>
+      <FileName>Accounts\Account.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Customer" />
+      <Property Name="Balance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Accounts.Deposit">
+    <Position X="6.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIAAAA=</HashCode>
+      <FileName>Accounts\Deposit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Accounts.Loan">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Accounts\Loan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Accounts.Mortage">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Accounts\Mortage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Customers.Customer">
+    <Position X="2.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAIAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Customers\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Customers.Individual">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAAAABAA=</HashCode>
+      <FileName>Customers\Individual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Customers.Company">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAQAAAAAAAAAAAQAAAAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>Customers\Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Accounts.Balances.Balance">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <AssociationLine Name="transactionHistory" Type="Telerik.Homeworks.OOP.Principles.Banks.Accounts.Balances.TransactionHistory">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.455" Y="0.069" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Accounts\Balances\Balance.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="transactionHistory" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Telerik.Homeworks.OOP.Principles.Banks.Accounts.Balances.TransactionHistory">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAACAAAIABAAAAAAAAEAAAAAAAAAgA=</HashCode>
+      <FileName>Accounts\Balances\TransactionHistory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.1" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
